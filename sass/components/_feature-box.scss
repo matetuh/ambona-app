@@ -1,0 +1,82 @@
+.feature-box {
+    z-index: 0;
+    background-color: rgba($color-white, .9);
+    font-size: 1.5rem;
+    padding: 3rem;
+    text-align:center;
+    border-radius: 2rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: transform .3s;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: bottom;
+
+    &--1 {
+        &:hover {
+            background-image: linear-gradient(
+                to left bottom,
+                $color-card-1-1,
+                $color-card-1-2),
+                url(../../img/pin.jpg);
+        }
+    }
+
+    &--2 {
+        &:hover {
+            background-image: linear-gradient(
+                to left bottom,
+                $color-card-1-1,
+                $color-card-1-2),
+                url(../../img/weather.jpg);
+        }
+    }
+
+    &--3 {
+        &:hover {
+            background-image: linear-gradient(
+                to left bottom,
+                $color-card-1-1,
+                $color-card-1-2),
+                url(../../img/bullet.jpg);
+        }
+    }
+
+    
+    &--4 {
+        &:hover {
+            background-image: linear-gradient(
+                to left bottom,
+                $color-card-1-1,
+                $color-card-1-2),
+                url(../../img/navi.jpg);
+        }
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+        color: $color-white;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+    }
+
+    &:hover &__icon {
+        transform: translateY(-1rem) scale(1.03);
+        border-color: $color-white;
+        box-shadow: 1rem 1rem 3rem rgba($color-black, .4);
+        background-image: linear-gradient(to left, $color-white, $color-white);
+    }
+
+    &__icon {
+        transition: transform .3s;
+        border: 0.5rem solid $color-grey;
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        border-radius: 10rem;;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        font-size: 6rem;
+        background-image: linear-gradient(to right, $color-card-1-2, $color-card-1-1);
+        -webkit-background-clip: text;
+        color: transparent;
+        
+    }
+
+}

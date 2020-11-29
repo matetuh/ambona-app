@@ -1,0 +1,9 @@
+2020.11.11 22:14:40 INFO  started: Metals version 0.9.4 in workspace 'D:\CODERSCAMP\Nauka_2020\06.11.2020\ambona\ambona-app' for client vscode.
+2020.11.11 22:14:41 INFO  time: initialize in 0.67s
+2020.11.11 22:14:43 WARN  no build tool detected in workspace 'D:\CODERSCAMP\Nauka_2020\06.11.2020\ambona\ambona-app'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.11 23:37:17 INFO  Started: Metals version 0.9.5 in workspace 'D:\CODERSCAMP\Nauka_2020\06.11.2020\ambona\ambona-app' for client vscode.
+2020.11.11 23:37:18 INFO  time: initialize in 0.75s
+2020.11.11 23:37:23 WARN  Build server is not auto-connectable.
+2020.11.11 23:37:23 WARN  no build tool detected in workspace 'D:\CODERSCAMP\Nauka_2020\06.11.2020\ambona\ambona-app'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+lis 11, 2020 11:41:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
