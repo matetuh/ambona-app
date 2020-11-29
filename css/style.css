@@ -339,7 +339,7 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../img/card-1.jpg);
+      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../../img/card-1.jpg);
       background-position: bottom; }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../../img/card-2.jpg); }
