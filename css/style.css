@@ -273,13 +273,13 @@ body {
   background-size: cover;
   background-position: bottom; }
   .feature-box--1:hover {
-    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../../img/pin.jpg); }
+    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/pin.jpg); }
   .feature-box--2:hover {
-    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../../img/weather.jpg); }
+    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/weather.jpg); }
   .feature-box--3:hover {
-    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../../img/bullet.jpg); }
+    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/bullet.jpg); }
   .feature-box--4:hover {
-    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../../img/navi.jpg); }
+    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/navi.jpg); }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03);
     color: #fff;
@@ -339,12 +339,12 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../../img/card-1.jpg);
+      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../img/card-1.jpg);
       background-position: bottom; }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../../img/card-2.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../img/card-2.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../../img/card-3.jpg);
+      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../img/card-3.jpg);
       background-position: center; }
   .card__heading {
     position: absolute;
