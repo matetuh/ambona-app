@@ -135,6 +135,11 @@ body {
     font-weight: 400;
     letter-spacing: 4.7rem;
     margin-left: 4rem; }
+    @media (max-width: 37.5em) {
+      .heading-primary__main {
+        margin-left: 2.4rem;
+        letter-spacing: 2.5rem;
+        font-size: 5rem; } }
   .heading-primary__sub {
     display: block;
     font-size: 2rem;
@@ -142,6 +147,11 @@ body {
     letter-spacing: 1rem;
     animation: moveInRight .45s ease-in;
     animation-delay: 1s; }
+    @media (max-width: 37.5em) {
+      .heading-primary__sub {
+        font-weight: 500;
+        letter-spacing: .6rem;
+        font-size: 1.5rem; } }
 
 .heading-secondary {
   position: relative;
@@ -154,6 +164,9 @@ body {
   color: transparent;
   transition: all .2s;
   letter-spacing: 2px; }
+  @media (max-width: 56.26em) {
+    .heading-secondary {
+      font-size: 2.5rem; } }
   .heading-secondary:hover {
     transform: skewY(1deg) skewX(1deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
