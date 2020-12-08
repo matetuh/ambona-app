@@ -5,10 +5,6 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
 
-    @include respond(tab-land) {
-        margin-bottom: 5rem;
-    }
-
     &__side {
         border-radius: 5px;
         overflow: hidden;
@@ -20,10 +16,6 @@
         transition: all 0.8s ease;
         color: $color-grey;
         backface-visibility: hidden;
-        
-        @include respond(tab-port) {
-            height: 50rem;
-        }
 
         box-shadow: 0.5rem 2rem 4rem hsla(0, 0%, 0%, 0.4);
 
@@ -181,6 +173,68 @@
         font-size: 6rem;
         font-weight: 100;
     }
+
+    @include respond(tab-land) {
+        height: auto;
+        border-radius: 3px;
+        background-color: $color-white;
+        &__side {
+            height: auto;
+            position: relative;
+            padding-bottom: 10%;
+
+            &--back {
+                border-radius: 0;
+                transform: rotateY(0deg);
+                clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+                margin-top: -10%;
+            }
+
+        }
+
+        &:hover &__side--front {
+            transform: rotateY(0deg);
+        
+        }
+
+        &__picture {       
+            &--1 {
+                background-position: bottom;
+            }
+            &--2 {
+                background-position: center;
+            }
+            &--3 {
+                background-position: center;
+            }
+        }
+        // BACK SIDE STYLING 
+        &__cta {
+            position: relative;
+            top: 0;
+            left: 0;
+            transform: translate(0);
+            width: 100%;
+        }
+
+        &__price-box {
+            text-align: center;
+            color: $color-white;
+            margin-bottom: 2rem;
+        }
+
+        &__price-only {
+            font-size: 1.4rem;
+            margin-top: 5%;
+            text-transform: uppercase;
+        }
+
+        &__price-value {
+            font-size: 6rem;
+            font-weight: 100;
+        }
+    }
+
 }
 
 

@@ -262,7 +262,7 @@ body {
   color: #fff;
   font-weight: 400; }
   .btn--green-white::after {
-    background-color: #9EBC3B; }
+    background-color: #7ca005; }
 
 .composition {
   margin-top: 2rem;
@@ -321,25 +321,25 @@ body {
   background-size: cover;
   background-position: bottom; }
   .feature-box--1:hover {
-    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/pin.jpg); }
+    background-image: linear-gradient(to left bottom, #9EBC3B, #7ca005), url(../img/pin.jpg); }
   @media (max-width: 75em) {
     .feature-box--1 {
-      background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/pin.jpg); } }
+      background-image: linear-gradient(to left bottom, #9EBC3B, #7ca005), url(../img/pin.jpg); } }
   .feature-box--2:hover {
-    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/weather.jpg); }
+    background-image: linear-gradient(to left bottom, #9EBC3B, #7ca005), url(../img/weather.jpg); }
   @media (max-width: 75em) {
     .feature-box--2 {
-      background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/weather.jpg); } }
+      background-image: linear-gradient(to left bottom, #9EBC3B, #7ca005), url(../img/weather.jpg); } }
   .feature-box--3:hover {
-    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/bullet.jpg); }
+    background-image: linear-gradient(to left bottom, #9EBC3B, #7ca005), url(../img/bullet.jpg); }
   @media (max-width: 75em) {
     .feature-box--3 {
-      background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/bullet.jpg); } }
+      background-image: linear-gradient(to left bottom, #9EBC3B, #7ca005), url(../img/bullet.jpg); } }
   .feature-box--4:hover {
-    background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/navi.jpg); }
+    background-image: linear-gradient(to left bottom, #9EBC3B, #7ca005), url(../img/navi.jpg); }
   @media (max-width: 75em) {
     .feature-box--4 {
-      background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/navi.jpg); } }
+      background-image: linear-gradient(to left bottom, #9EBC3B, #7ca005), url(../img/navi.jpg); } }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03);
     color: #fff;
@@ -365,7 +365,7 @@ body {
     padding: 1rem;
     margin-bottom: 2rem;
     font-size: 6rem;
-    background-image: linear-gradient(to right, #9EBC3B, #7c8a4f);
+    background-image: linear-gradient(to right, #7ca005, #9EBC3B);
     -webkit-background-clip: text;
     color: transparent; }
 
@@ -374,9 +374,6 @@ body {
   height: 40rem;
   perspective: 150rem;
   -moz-perspective: 150rem; }
-  @media (max-width: 75em) {
-    .card {
-      margin-bottom: 5rem; } }
   .card__side {
     border-radius: 5px;
     overflow: hidden;
@@ -389,19 +386,16 @@ body {
     color: #777;
     backface-visibility: hidden;
     box-shadow: 0.5rem 2rem 4rem rgba(0, 0, 0, 0.4); }
-    @media (max-width: 56.26em) {
-      .card__side {
-        height: 50rem; } }
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #7c8a4f, #9EBC3B); }
+        background-image: linear-gradient(to right bottom, #9EBC3B, #7ca005); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, #7c8a4f, #9EBC3B); }
+        background-image: linear-gradient(to right bottom, #9EBC3B, #7ca005); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #7c8a4f, #9EBC3B); }
+        background-image: linear-gradient(to right bottom, #9EBC3B, #7ca005); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -413,12 +407,12 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../img/card-1.jpg);
+      background-image: linear-gradient(to right bottom, rgba(158, 188, 59, 0.8), rgba(124, 160, 5, 0.8)), url(../img/card-1.jpg);
       background-position: bottom; }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../img/card-2.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(158, 188, 59, 0.8), rgba(124, 160, 5, 0.8)), url(../img/card-2.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(124, 138, 79, 0.8), rgba(158, 188, 59, 0.8)), url(../img/card-3.jpg);
+      background-image: linear-gradient(to right bottom, rgba(158, 188, 59, 0.8), rgba(124, 160, 5, 0.8)), url(../img/card-3.jpg);
       background-position: center; }
   .card__heading {
     position: absolute;
@@ -435,14 +429,14 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to bottom, #9ebc3b, rgba(124, 138, 79, 0.5)); }
+      background-image: linear-gradient(to bottom, #7ca005, rgba(158, 188, 59, 0.5)); }
     .card__heading-span--2 {
       display: inline-block;
-      background-image: linear-gradient(to bottom, #9ebc3b, rgba(124, 138, 79, 0.5));
+      background-image: linear-gradient(to bottom, #7ca005, rgba(158, 188, 59, 0.5));
       padding: 0.5rem 1rem; }
     .card__heading-span--3 {
       display: inline-block;
-      background-image: linear-gradient(to bottom, #9ebc3b, rgba(124, 138, 79, 0.5));
+      background-image: linear-gradient(to bottom, #7ca005, rgba(158, 188, 59, 0.5));
       padding: 0.5rem 1rem; }
   .card__details ul {
     list-style: none;
@@ -471,6 +465,45 @@ body {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
+  @media (max-width: 75em) {
+    .card {
+      height: auto;
+      border-radius: 3px;
+      background-color: #fff; }
+      .card__side {
+        height: auto;
+        position: relative;
+        padding-bottom: 10%; }
+        .card__side--back {
+          border-radius: 0;
+          transform: rotateY(0deg);
+          clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+          margin-top: -10%; }
+      .card:hover .card__side--front {
+        transform: rotateY(0deg); }
+      .card__picture--1 {
+        background-position: bottom; }
+      .card__picture--2 {
+        background-position: center; }
+      .card__picture--3 {
+        background-position: center; }
+      .card__cta {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0);
+        width: 100%; }
+      .card__price-box {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 2rem; }
+      .card__price-only {
+        font-size: 1.4rem;
+        margin-top: 5%;
+        text-transform: uppercase; }
+      .card__price-value {
+        font-size: 6rem;
+        font-weight: 100; } }
 
 .row {
   max-width: 114rem;
@@ -515,7 +548,7 @@ body {
     width: calc(3 * ((100% - 3 * 6rem) / 4 ) + 2 * 6rem); }
 
 .header__background {
-  background: linear-gradient(132deg, rgba(42, 54, 3, 0.8), rgba(22, 13, 1, 0.8), rgba(158, 188, 59, 0.8));
+  background: linear-gradient(132deg, rgba(42, 54, 3, 0.8), rgba(22, 13, 1, 0.8), rgba(124, 160, 5, 0.8));
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
   position: relative;
@@ -623,7 +656,7 @@ body {
               text-align: center;
               margin: 0 auto; } }
           .nav__box ul li a:hover {
-            background-image: linear-gradient(132deg, #7c8a4f, #9EBC3B);
+            background-image: linear-gradient(132deg, #9EBC3B, #9EBC3B);
             transform: translateY(-0.5rem) scale(1.02); }
 
 .sticky {
@@ -661,7 +694,7 @@ body {
             text-align: center; } }
         .sticky ul li a:hover {
           color: #fff;
-          background-image: linear-gradient(132deg, #7c8a4f, #9EBC3B); }
+          background-image: linear-gradient(132deg, #9EBC3B, #9EBC3B); }
   .sticky-logo {
     position: fixed;
     left: 6rem;
@@ -793,6 +826,6 @@ body {
 
 .section-cards {
   z-index: 0;
-  padding: 10rem 0;
-  margin-top: -5rem;
+  padding: 15rem 0;
+  margin-top: -8rem;
   background-color: #f7f7f7; }
