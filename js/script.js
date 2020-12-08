@@ -44,3 +44,16 @@ $('.js--nav__icon').click(function() {
         logo.addClass('ion-sticky-logo');
     }
 });
+
+$('.composition__photo').BUP(null, 0.5);
+
+var defaults = {
+        round: true,
+        width: 200,
+        height: 200,
+        background: '#FFF',
+        shadow: '0 8px 17px 0 rgba(0, 0, 0, 1)',
+        border: '6px solid #FFF',
+        cursor: true,
+        zIndex: 999999,
+    }
