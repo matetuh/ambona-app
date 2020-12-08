@@ -12,12 +12,12 @@
 
     @include respond(tab-port) {
         text-align: center;
-        height: 170vh;
+        height: 185vh;
     }
 
     @include respond(phone) {
         text-align: center;
-        height: 225vh;
+        height: 200vh;
     }
 }
 

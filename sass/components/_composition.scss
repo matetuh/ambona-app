@@ -11,8 +11,16 @@
         transform: scale(1);
         transition-duration: .4s;
 
+        @include respond(tab-land){
+            width: 30%;
+        }
+
+        @include respond(tab-port) {
+            width: 35%;
+        }
+
         @include respond(phone) {
-            width: 60%;
+            width: 50%;
             border-radius: 2.5rem;
         }
 
@@ -20,8 +28,17 @@
             z-index: 0;
             left: 15%;
             top: -5rem;
+
+            @include respond(tab-land) {
+                left: 15%;
+            }
+
+            @include respond(tab-port) {
+                left: 5%;
+            }
+
             @include respond(phone) {
-                left: -20%;
+                left: -10%;
             }
         }
 
@@ -29,8 +46,17 @@
             z-index: 2;
             left: 40%;
             top: 0rem;
+
+            @include respond(tab-land) {
+                left: 37%;
+            }
+
+            @include respond(tab-port) {
+                left: 35%;
+            }
+
             @include respond(phone) {
-                left: 20%;
+                left: 25%;
             }
         }
 
@@ -38,7 +64,18 @@
             z-index: 1;
             left: 60%;
             top: -5rem;
-            
+
+            @include respond(tab-land) {
+                left: 60%;
+            }
+
+            @include respond(tab-port) {
+                left: 65%;
+            }
+
+            @include respond(phone) {
+                left: 65%;
+            }
         }
 
         &:hover {
@@ -49,7 +86,6 @@
             border: solid 1rem;
             padding: 0.5rem;
             border-color: $color-main-1;
-
         }
 
     }
