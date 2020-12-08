@@ -514,14 +514,26 @@ body {
       box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3); }
   .nav__box {
     position: absolute;
-    top: 0;
+    top: 0rem;
     right: 10rem; }
+    @media (max-width: 37.5em) {
+      .nav__box {
+        display: none;
+        margin: 0;
+        padding: 0;
+        top: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center; } }
     .nav__box ul {
-      list-style-type: none;
+      list-style: none;
       padding: 0;
       margin: 0; }
       .nav__box ul li {
         float: left; }
+        @media (max-width: 37.5em) {
+          .nav__box ul li {
+            float: none; } }
         .nav__box ul li a {
           border-radius: .5rem;
           font-size: 1.8rem;
@@ -533,6 +545,13 @@ body {
           display: block;
           padding: 1rem 2rem;
           transition: all 0.3s; }
+          @media (max-width: 56.26em) {
+            .nav__box ul li a {
+              padding: 1rem 1rem; } }
+          @media (max-width: 37.5em) {
+            .nav__box ul li a {
+              text-align: center;
+              margin: 0 auto; } }
           .nav__box ul li a:hover {
             background-image: linear-gradient(132deg, #7c8a4f, #9EBC3B);
             transform: translateY(-0.5rem) scale(1.02); }
@@ -548,24 +567,42 @@ body {
   padding-right: 10rem;
   padding-bottom: 1rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3); }
+  @media (max-width: 37.5em) {
+    .sticky {
+      margin: 0;
+      padding: 1rem 0; } }
   .sticky ul {
     float: right; }
+    @media (max-width: 37.5em) {
+      .sticky ul {
+        float: none; } }
     .sticky ul li {
       float: left; }
+      @media (max-width: 37.5em) {
+        .sticky ul li {
+          float: none; } }
       .sticky ul li a {
         color: #9EBC3B;
         font-weight: 500; }
+        @media (max-width: 37.5em) {
+          .sticky ul li a {
+            width: 30%;
+            margin: 0 auto;
+            text-align: center; } }
         .sticky ul li a:hover {
           color: #fff;
           background-image: linear-gradient(132deg, #7c8a4f, #9EBC3B); }
   .sticky-logo {
     position: fixed;
     left: 6rem;
-    z-index: 101;
+    z-index: 103;
     display: inline-block;
     margin-top: -1rem;
     height: 6rem;
     width: auto; }
+    @media (max-width: 56.26em) {
+      .sticky-logo {
+        margin-top: 1rem; } }
   .sticky-icon {
     color: #9EBC3B;
     font-size: 3rem;

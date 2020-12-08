@@ -13,11 +13,9 @@ var sticky = navBox.offsetHeight+60;
 function myFunction() {
   if (window.scrollY >= sticky) {
     navbar.classList.add("sticky");
-    navLogo.classList.add("sticky-logo");
     navIcon.classList.add("sticky-icon");
   } else {
     navbar.classList.remove("sticky");
-    navLogo.classList.remove("sticky-logo");
     navIcon.classList.remove("sticky-icon");
   }
 }
@@ -28,6 +26,12 @@ $('.js--nav__icon').click(function() {
     var nav = $('.js--nav__box');
     var logo = $('.nav__logo');
     var icon = $('.js--nav__icon i');
+
+    if (window.scrollY >= sticky) {
+      navLogo.classList.add("sticky-logo");
+    } else {
+      navLogo.classList.remove("sticky-logo");
+    }
 
     nav.slideToggle(200);
 
