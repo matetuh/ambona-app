@@ -5,6 +5,10 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
 
+    @include respond(tab-port) {
+        margin-bottom: 5rem;
+    }
+
     &__side {
         border-radius: 5px;
         overflow: hidden;
@@ -16,6 +20,10 @@
         transition: all 0.8s ease;
         color: $color-grey;
         backface-visibility: hidden;
+        
+        @include respond(tab-port) {
+            height: 50rem;
+        }
 
         box-shadow: 0.5rem 2rem 4rem hsla(0, 0%, 0%, 0.4);
 

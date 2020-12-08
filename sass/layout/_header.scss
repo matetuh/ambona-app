@@ -21,7 +21,10 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
-    @include respond(tab-port) {
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    
     }
 
     &__logo-box {
@@ -65,6 +68,11 @@
         right: 6rem;
         color: $color-main-1;
         font-size: 3rem;
+
+        @include respond(phone) {
+            top: 5rem;
+            right: 3rem;
+        }
 
         &:hover {
             transform: translateY(-.2rem);
@@ -207,6 +215,11 @@
         cursor: pointer;
         top: 1.35rem;
         right: 6rem;
+
+        @include respond(phone) {
+            top: 2rem;
+            right: 2rem;
+        }
     }
 }
 
