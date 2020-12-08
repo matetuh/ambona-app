@@ -74,6 +74,7 @@
         font-size: 3rem;
 
         @include respond(phone) {
+            margin: auto 0;
             top: 5rem;
             right: 3rem;
         }
