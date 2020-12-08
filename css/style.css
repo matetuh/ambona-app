@@ -277,7 +277,8 @@ body {
     transition-duration: .4s; }
     @media (max-width: 37.5em) {
       .composition__photo {
-        width: 60%; } }
+        width: 60%;
+        border-radius: .15rem; } }
     .composition__photo--p1 {
       z-index: 0;
       left: 15%;

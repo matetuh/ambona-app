@@ -45,4 +45,3 @@ $('.js--nav__icon').click(function() {
     }
 });
 
-$('.composition__photo').BUP(null, 0.5);
