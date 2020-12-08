@@ -321,21 +321,41 @@ body {
   background-position: bottom; }
   .feature-box--1:hover {
     background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/pin.jpg); }
+  @media (max-width: 75em) {
+    .feature-box--1 {
+      background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/pin.jpg); } }
   .feature-box--2:hover {
     background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/weather.jpg); }
+  @media (max-width: 75em) {
+    .feature-box--2 {
+      background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/weather.jpg); } }
   .feature-box--3:hover {
     background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/bullet.jpg); }
+  @media (max-width: 75em) {
+    .feature-box--3 {
+      background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/bullet.jpg); } }
   .feature-box--4:hover {
     background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/navi.jpg); }
+  @media (max-width: 75em) {
+    .feature-box--4 {
+      background-image: linear-gradient(to left bottom, #7c8a4f, #9EBC3B), url(../img/navi.jpg); } }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03);
     color: #fff;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4); }
+  @media (max-width: 75em) {
+    .feature-box {
+      color: #fff;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4); } }
   .feature-box:hover .feature-box__icon {
     transform: translateY(-1rem) scale(1.03);
     border-color: #fff;
     box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.4);
     background-image: linear-gradient(to left, #fff, #fff); }
+  @media (max-width: 75em) {
+    .feature-box {
+      border-color: #fff;
+      box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.4); } }
   .feature-box__icon {
     transition: transform .3s;
     border: 0.5rem solid #777;
