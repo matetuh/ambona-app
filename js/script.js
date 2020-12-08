@@ -16,6 +16,7 @@ function myFunction() {
     navIcon.classList.add("sticky-icon");
   } else {
     navbar.classList.remove("sticky");
+    navLogo.classList.remove("sticky-logo");
     navIcon.classList.remove("sticky-icon");
   }
 }
@@ -29,19 +30,17 @@ $('.js--nav__icon').click(function() {
 
     if (window.scrollY >= sticky) {
       navLogo.classList.add("sticky-logo");
-    } else {
-      navLogo.classList.remove("sticky-logo");
     }
 
     nav.slideToggle(200);
 
     if(icon.hasClass('ion-navicon-round')) {
         icon.addClass('ion-close-round');
-        logo.addClass('ion-sticky-logo')
+        logo.removeClass('ion-sticky-logo')
         icon.removeClass('ion-navicon-round');
     } else {
         icon.addClass('ion-navicon-round');
         icon.removeClass('ion-close-round');
-        logo.removeClass('ion-sticky-logo');
+        logo.addClass('ion-sticky-logo');
     }
 });
