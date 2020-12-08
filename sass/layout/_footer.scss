@@ -20,12 +20,26 @@
     &__navigation {
         border-top: 2px solid $color-grey-light;
         width: 80%;
+
+        @include respond(tab-land) {
+            width: 100%;
+            text-align: center;
+            margin-bottom: -2rem;
+            font-size: 2rem;
+        }
     }
 
     &__list {
         width: 85%;
         list-style: none;
         margin: 0 auto;
+
+        @include respond(tab-land) {
+            width: 100%;
+            text-align: center;
+            padding: 1.5rem 2rem;
+            margin-bottom: 1rem;
+        }
     }
 
 
@@ -35,6 +49,11 @@
         float: left;
         text-decoration: none;
         color: $color-white;
+
+        @include respond(tab-land) {
+            float: none;
+            
+        }
 
         &:hover {
             background-color: $color-main-1;
@@ -49,5 +68,11 @@
         text-align: center;
         width: 70%;
         float: right;
+
+        @include respond(tab-land) {
+            float: none;
+            width: 100%;
+            font-size: 1.5rem;
+        }
     }
 }

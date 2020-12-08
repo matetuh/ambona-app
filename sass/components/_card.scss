@@ -5,7 +5,7 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
 
-    @include respond(tab-port) {
+    @include respond(tab-land) {
         margin-bottom: 5rem;
     }
 

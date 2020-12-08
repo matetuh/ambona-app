@@ -57,6 +57,10 @@
         background-color: $color-white;
         color: $color-main-1;
         font-weight: 500;
+
+        @include respond (tab-land) {
+            margin-left: 1.5rem;
+        }
     
         &::after {
             background-color: $color-white;
