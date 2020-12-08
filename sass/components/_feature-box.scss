@@ -119,6 +119,10 @@
         -webkit-background-clip: text;
         color: transparent;
         
+        @include respond(tab-land) {
+            border: 0.5rem solid $color-white;
+            color: $color-white;
+        }
     }
 
 }

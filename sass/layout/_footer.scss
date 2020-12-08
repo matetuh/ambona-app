@@ -10,11 +10,21 @@
         margin-bottom: 10rem;
         margin-top: -1rem;
         text-align: center;
+
+        @include respond(tab-land) {
+            margin-bottom: 5rem;
+            margin-top: -2rem;
+        }
     }
     
     &__logo {
         height: 2rem;
         width: auto;
+
+        @include respond(tab-land) {
+            height: 50%;
+            width: auto;
+        }
     }
 
     &__navigation {

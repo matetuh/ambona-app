@@ -17,7 +17,7 @@
 
     @include respond(phone) {
         text-align: center;
-        height: 250vh;
+        height: 210vh;
     }
 }
 
@@ -39,7 +39,7 @@
 .section-features {
     z-index: 0;
     margin-top: -10rem;
-    padding: 20rem 0;
+    padding: 10rem 0;
     background-image: linear-gradient(
         to right bottom,
         rgba($color-grad-1, 0.8),
@@ -57,7 +57,8 @@
 
 .section-cards {
     z-index: 0;
-    padding: 15rem 0;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
     margin-top: -8rem;
     background-color: $color-grey-light;
 }

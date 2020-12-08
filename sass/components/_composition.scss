@@ -13,7 +13,7 @@
 
         @include respond(phone) {
             width: 60%;
-            border-radius: .15rem;
+            border-radius: 2.5rem;
         }
 
         &--p1 {
