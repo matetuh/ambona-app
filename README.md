@@ -1,4 +1,5 @@
-# ambona-app
+# 🦌 ambona app website
+
 An website for Ambona App - a hunting tool.
 
 <p align="center">
