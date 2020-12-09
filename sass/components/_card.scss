@@ -63,7 +63,7 @@
                 to right bottom,
                 rgba($color-card-1-1,0.8),
                 rgba($color-card-1-2,0.8)),
-                url(./img/card-1.jpg);
+                url(../img/card-1.jpg);
             background-position: bottom;
         }
 
@@ -72,7 +72,7 @@
                 to right bottom,
                 rgba($color-card-2-1,0.8),
                 rgba($color-card-2-2,0.8)),
-                url(./img/card-2.jpg);
+                url(../img/card-2.jpg);
         }
 
         &--3 {
@@ -80,7 +80,7 @@
                 to right bottom,
                 rgba($color-card-3-1,0.8),
                 rgba($color-card-3-2,0.8)),
-                url(./img/card-3.jpg);
+                url(../img/card-3.jpg);
                 background-position: center;
         }
     }
