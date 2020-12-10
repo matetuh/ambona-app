@@ -8,4 +8,4 @@ An website for Ambona App - a hunting tool.
 
 See demo: https://matetuh.github.io/ambona-app/
 
-`<addr>` The layout based on: Advanced CSS and Sass: Flexbox, Grid, Animations and More! - Jonas Schmedtmann
+##### The layout based on: Advanced CSS and Sass: Flexbox, Grid, Animations and More! - Jonas Schmedtmann
